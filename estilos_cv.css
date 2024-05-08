@@ -1,0 +1,126 @@
+ #contenedor{
+    width: 75%;
+    display: flex;
+    padding:20px;
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.resaltado_bold{
+   font-weight: 700;
+}
+p{
+   line-height: 1.5em;
+}
+
+
+.columna_izquierda{
+    width: 70%;
+   /* background-color: lightblue; */
+    padding: 30px;
+    border: 1px dotted black;
+    color: #969F9F;
+ }
+
+.columna_izquierda h2{
+    margin: 30px 0px 10px 0px;
+}
+
+.columna_izquierda p{
+    color: #514e4e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.columna_izquierda li{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+ .columna_derecha{
+    width: 30%;
+    /* background-color:#AF385a; */
+    background-color:#545454;
+
+    color:white;
+
+ }   
+
+ .columna_derecha a{
+   color:#fff;
+   text-decoration:none;
+ }
+ .contenedor_foto{
+    /* background-color:#898888; */
+    background-color:#AF385a;
+
+
+    padding: 10px;
+    text-align: center;
+    object-fit: contain;
+
+ }
+ .foto img{
+    width: 75%;
+    border-radius: 50%;
+    border: 10px dotted rgb(227, 216, 216);
+    margin: 10px;
+
+ }
+ .foto h2{
+    margin:0px;
+ }
+
+ .titulo_trabajo{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #AF385a;
+ }
+ .ciudad{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #97AAC3;
+ }
+
+.columna_derecha ul{
+
+   margin-left: 20px;
+
+}
+ ul {
+   list-style: none;
+   margin:0px;
+   padding:0;
+}
+.datos_lista ul li{
+   margin-bottom: 10px;
+
+}
+
+.columna_derecha h1{
+   font-size: 1em;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+
+}
+.educacion p{
+   padding-left: 20px;
+   margin:0;
+}
+.curso{
+   padding-left: 20px;
+   font-variant: small-caps;
+}
+.universidad{
+   color: #3F4650;
+}
+p.fecha{
+   font-size: smaller;
+   margin-bottom: 10px;
+}
+.nivel{
+   font-style: oblique;
+}
